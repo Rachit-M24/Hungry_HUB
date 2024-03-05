@@ -1,0 +1,17 @@
+.btn2 {
+  background-color: #ea823a;
+}
+.btn2 a {
+  color: #fff;
+}
+.btn1 {
+  background-color: #fff;
+}
+.btn1 a {
+  color: #ea823a;
+}
+.btn3 img {
+  position: absolute;
+  right: 0.5%;
+  bottom: -10%;
+}

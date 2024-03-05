@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  /* position: relative; */
+}
+.main_wrapper {
+  height: 100%;
+  width: 100%;
+  /* background-color: rgb(26, 226, 226);  */
+}
+.container1 {
+  height: 350px;
+  width: 100%; /*460px*/
+  position: relative;
+}
+.container1 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.gradient {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to bottom, #ea833ad3, #ea833ad3, transparent);
+  position: absolute;
+}
+.logo {
+  height: 60%;
+  width: 70%;
+}
+.container2 {
+  height: 380px;
+  width: 100%; /*460px*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.login-container {
+  background-color: #c4c3c3;
+  border-radius: 30px;
+  box-shadow: 0 0 10px rgba(10, 10, 10, 0.446);
+  padding: 20px;
+  height: 380px;
+  width: 70%; /*300px*/
+  text-align: center;
+}
+.btn_container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+.btn1 {
+  height: 30px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 18px;
+  cursor: pointer;
+  background-color: #ea823a;
+}
+.btn2 {
+  height: 30px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 18px;
+  color: #ea823a;
+  background-color: #fff;
+}
+.btn1 a {
+  /* text-align: center; */
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+}
+.btn2 a {
+  font-weight: 700;
+  text-decoration: none;
+  color: #ea823a;
+}
+.input-group {
+  margin: 2rem;
+}
+.input-group span {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 600;
+  margin: 5px;
+}
+.forgotten_password {
+  text-decoration: none;
+  color: #000;
+}
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: transparent;
+  border-style: none;
+  font-weight: 600;
+  color: #000;
+  border-bottom: 2px solid #000;
+  /* border-radius: 5px; */
+  margin-top: 5px;
+}
+
+.submit-btn {
+  background-color: #ea823a;
+  color: #fff;
+  width: 70%;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.container3 img {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  right: 0.5%;
+  bottom: 7%;
+}
